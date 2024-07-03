@@ -17,6 +17,7 @@ export default function Ready_To_Dive() {
           </p>
           <button className="px-8 py-2 border-2 w-1/2 border-[#00732F] bg-[#00732F] text-white rounded-md font-bold text-[15px] flex items-center justify-center">
             <span>Sign up Today!</span>
+            {/* Signup Button Icon SVG */}
             <svg
               width="32"
               height="17"

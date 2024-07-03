@@ -12,22 +12,25 @@ const Tabs = () => {
   return (
     <div className="max-w-5xl mx-auto px-4 ">
       <div className="flex gap-28">
+        {/* Buyer Button*/}
+
         <button
-          className={`py-2 px-4 font-bold text-[26px]  focus:outline-none ${
-            activeTab === "tab1"
+          className={`py-2 px-4 font-bold text-[26px]  focus:outline-none ${activeTab === "tab1"
               ? " border-b-2 border-b-[#EB7150] text-[#EB7150]"
               : ""
-          }`}
+            }`}
           onClick={() => handleTabClick("tab1")}
         >
           Buyer
         </button>
+
+        {/* Supplier Button */}
+
         <button
-          className={`py-2 px-4 font-bold text-[26px]   focus:outline-none ${
-            activeTab === "tab2"
+          className={`py-2 px-4 font-bold text-[26px]   focus:outline-none ${activeTab === "tab2"
               ? "text-[#EB7150] border-b-2 border-b-[#EB7150]"
               : ""
-          }`}
+            }`}
           onClick={() => handleTabClick("tab2")}
         >
           Supplier

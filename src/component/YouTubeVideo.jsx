@@ -12,11 +12,12 @@ const YouTubeVideo = () => {
       onClick={handleThumbnailClick}
     >
       <img
-        src={videothumbnail}
+        src={videothumbnail} 
         alt="Video Thumbnail"
         className="w-full h-full object-cover rounded-md"
       />
       <div className="absolute inset-0 flex justify-center items-center">
+        {/* SVG ICOn For The Youtube  */}
         <svg
           width="107"
           height="76"
