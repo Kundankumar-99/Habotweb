@@ -1,18 +1,22 @@
 import React from "react";
 import Header from "../component/Header";
 import Footer from "../component/Footer";
-
 import Herosection from "../component/Herosection";
-import Ready_To_Dive from "../component/Ready_to_dive";
+
 import Buyer from "../component/Buyer";
+import Banner from "../component/Banner";
+import How_it_works from "../component/How_it_works";
+import Ready_To_Dive from "../component/Ready-To-Dive";
 
 export default function Home() {
   return (
-    <div >
+    <div>
       <Header />
-      <Herosection/>
+      <Herosection />
       <Ready_To_Dive/>
-      <Buyer/>
+      <Buyer />
+      <Banner />
+      <How_it_works />
       <Footer />
     </div>
   );

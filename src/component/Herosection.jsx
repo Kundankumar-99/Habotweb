@@ -7,17 +7,17 @@ export default function Herosection() {
       <img
         src={bg}
         alt="Background"
-        className="absolute inset-0 w-full  object-cover z-10"
+        className="absolute inset-0 w-full h-full object-cover z-10"
       />
-      <div className="relative flex flex-col justify-center items-center py-32 text-white z-20 container mx-auto w-5/6">
-        <p className="text-5xl text-center leading-snug font-bold">
+      <div className="relative flex flex-col justify-center items-center py-24 sm:py-32 text-white z-20 container mx-auto w-5/6">
+        <p className="text-3xl sm:text-5xl text-center leading-snug font-bold">
           Are You a Supplier ?
           <br />
-          <span className="font-normal text-5xl">
+          <span className="font-normal ">
             Explore Matching Opportunities.
           </span>
         </p>
-        <div className="flex gap-2 mt-8">
+        <div className="flex flex-col sm:flex-row gap-2 mt-8  ">
           <div className="relative">
             <input
               type="text"
@@ -81,7 +81,7 @@ export default function Herosection() {
             Search
           </button>
         </div>
-        <p className="mt-4 text-lg">
+        <p className="mt-4 text-base sm:text-lg text-center">
           <span className="font-bold">Are you a buyer? </span>
           <a href="#" className="underline">
             Click here if you are looking to post a requirement
