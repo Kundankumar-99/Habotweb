@@ -14,7 +14,7 @@ export default function Header() {
         <header className="bg-white py-4">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
             <img src={logo} alt="Logo" className="h-10 sm:h-12" />
-            <nav className="hidden sm:flex items-center gap-8" id="navbar-hamburger">
+            <nav className="hidden md:flex items-center gap-8" id="navbar-hamburger">
               <ul className="flex gap-8 text-[#6D6E71]">
                 <li>Find Suppliers</li>
                 <li className="flex items-center gap-2">
@@ -41,7 +41,7 @@ export default function Header() {
               </button>
             </nav>
             {/* Mobile Menu Button for small screens */}
-            <div className="sm:hidden">
+            <div className="md:hidden">
               <button
                 onClick={toggleMenu}
                 type="button"

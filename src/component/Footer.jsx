@@ -8,8 +8,8 @@ import Twitter from "../assets/Twitter.png";
 export default function Footer() {
   return (
     <footer className=" flex bg-[#123557] py-16 wrap">
-      <div className="container w-5/6 mx-auto flex sm:flex-row flex-col justify-between gap-16 items-center border-t-2 border-b-2 border-white py-8 px-2">
-        <div className="flex sm:flex-row flex-col gap-12 items-center">
+      <div className="container w-5/6 mx-auto flex md:flex-row flex-col justify-between gap-16 items-center border-t-2 border-b-2 border-white py-8 px-2">
+        <div className="flex md:flex-row flex-col gap-12 items-center">
           <div className=" text-white flex flex-col gap-4">
             <img src={footerlogo} alt="Logo" />
             <p>© R Singhania </p>

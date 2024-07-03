@@ -17,7 +17,7 @@ export default function Herosection() {
             Explore Matching Opportunities.
           </span>
         </p>
-        <div className="flex flex-col sm:flex-row gap-2 mt-8  ">
+        <div className="flex flex-col md:flex-row gap-2 mt-8  ">
           <div className="relative">
             <input
               type="text"
