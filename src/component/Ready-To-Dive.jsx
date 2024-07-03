@@ -4,7 +4,7 @@ import Button from "./button";
 export default function Ready_To_Dive() {
   return (
     <div>
-      <div className="container flex flex-col md:flex-row gap-16 sm:gap-32 mx-auto w-5/6 py-20">
+      <div className="container flex flex-col md:flex-row gap-16 md:gap-32 mx-auto w-5/6 py-20">
         <div className=" w-full flex flex-col md:w-1/2  gap-8">
           <h1 className="text-[35px] text-black font-bold ">
             Ready to dive into <span className="text-[#271555]">HABOT?</span>
