@@ -3,7 +3,7 @@ import videothumbnail from "../assets/Video_Thumbnail.png";
 
 const YouTubeVideo = () => {
   const handleThumbnailClick = () => {
-    window.open("https://www.youtube.com/embed/QVNpTiFsGvw", "_blank");
+    window.open("https://www.youtube.com/embed/IZLp-TZyDkQ?si=-7FbPyy97HskkIpp", "_blank");
   };
 
   return (
