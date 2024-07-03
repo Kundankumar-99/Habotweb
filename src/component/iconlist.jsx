@@ -5,6 +5,7 @@ export default function Iconlist({ text }) {
     <div className="flex flex-col gap-4">
       <p className="flex gap-4">
         <span>
+          {/* Check Mark Icon */}
           <svg
             width="18"
             height="18"

@@ -17,6 +17,8 @@ const Modal = ({ isOpen, onClose, children }) => {
           className="absolute top-0 right-0 m-4 text-gray-600 hover:text-gray-800"
           onClick={onClose}
         >
+
+          {/* Hamburger Icon */}
           <svg
             className="w-6 h-6"
             fill="none"

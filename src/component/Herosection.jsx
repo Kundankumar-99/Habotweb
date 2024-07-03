@@ -4,12 +4,15 @@ import bg from "../assets/Background.png";
 export default function Herosection() {
   return (
     <div className="min-h-[76vh] relative">
+      {/* {Hero Image Section } */}
       <img
         src={bg}
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover z-10"
       />
+
       <div className="relative flex flex-col justify-center items-center py-24 sm:py-32 text-white z-20 container mx-auto w-5/6">
+
         <p className="text-3xl sm:text-5xl text-center leading-snug font-bold">
           Are You a Supplier ?
           <br />
@@ -17,6 +20,7 @@ export default function Herosection() {
             Explore Matching Opportunities.
           </span>
         </p>
+
         <div className="flex flex-col md:flex-row gap-2 mt-8  ">
           <div className="relative">
             <input
@@ -81,6 +85,7 @@ export default function Herosection() {
             Search
           </button>
         </div>
+        
         <p className="mt-4 text-base sm:text-lg text-center">
           <span className="font-bold">Are you a buyer? </span>
           <a href="#" className="underline">

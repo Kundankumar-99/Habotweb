@@ -10,10 +10,12 @@ export default function Footer() {
     <footer className=" flex bg-[#123557] py-16 wrap">
       <div className="container w-5/6 mx-auto flex md:flex-row flex-col justify-between gap-16 items-center border-t-2 border-b-2 border-white py-8 px-2">
         <div className="flex md:flex-row flex-col gap-12 items-center">
+          {/* Logo */}
           <div className=" text-white flex flex-col gap-4">
             <img src={footerlogo} alt="Logo" />
             <p>© R Singhania </p>
           </div>
+          {/* Important Link */}
           <div className="flex  gap-16 text-white">
             <ul>
               <li className="font-bold">Company</li>
@@ -33,6 +35,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+        {/* Social Icons */}
         <div className="icon flex gap-4">
           <img src={facebook} alt="" />
           <img src={instagram} alt="" />
